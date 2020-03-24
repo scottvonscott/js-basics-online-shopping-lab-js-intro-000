@@ -49,7 +49,7 @@ function total() {
   var firstSum = 0
   var lastSum = []
   for (i = 0; i < cart.length; i++) {
-    return sum + cart[i].itemPrice
+    lastSum.push(cart[i].itemPrice)
   }
 }
 
