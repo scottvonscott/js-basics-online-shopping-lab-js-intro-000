@@ -31,7 +31,7 @@ function viewCart() {
       for (var i = 0; i < cart.length; i++) {
         newArray.push(`${cart[i].itemName} at $${cart[i].itemPrice}`)
       }
-      newArray.splice(-1, 0, ", and")
+      newArray.splice(-1, 0, " and")
       placeholder += newArray.join() + "."
       return placeholder
   }
