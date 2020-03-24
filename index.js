@@ -29,7 +29,7 @@ function addToCart(item) {
 // }
 
 function viewCart() {
-  switch(cart.length) {
+  switch(cart) {
     case cart.length >= 1:
       return `In your cart, you have ${cart[0]}.`
       break;
