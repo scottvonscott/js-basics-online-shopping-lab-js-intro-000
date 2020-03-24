@@ -29,7 +29,7 @@ function viewCart() {
     var placeholder = "In your cart, you have"
     var newArray = []
       for (var i = 0; i < cart.length; i++) {
-        newArray.push(`${cart[i].itemName} at $${cart[i].itemPrice.}`)
+        newArray.push `${cart[i].itemName} at $${cart[i].itemPrice.}`
       }
       newArray.splice(-1, 0, ", and")
       placeholder += newArray.join()
