@@ -18,16 +18,6 @@ function addToCart(item) {
   return `${item} has been added to your cart.`
 }
 
-// function viewCart() {
-//   if (cart.length === 0) {
-//     return "Your shopping cart is empty"
-//   }
-//   let i = 0
-//   for (i = 0; i < cart.length; i+= 1) {
-//
-//   }
-// }
-
 function viewCart() {
   if (cart.length === 0) {
     return "Your shopping cart is empty."
