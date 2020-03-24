@@ -51,7 +51,7 @@ function total() {
   for (i = 0; i < cart.length; i++) {
     lastSum.push(cart[i].itemPrice)
   }
-  return lastSum
+  parseInt(last)
 }
 
 function removeFromCart(item) {
