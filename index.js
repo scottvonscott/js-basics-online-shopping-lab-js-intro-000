@@ -31,7 +31,7 @@ function viewCart() {
       for (var i = 0; i < cart.length; i++) {
         newArray.push(` ${cart[i].itemName} at $${cart[i].itemPrice}`)
       }
-      finalElement = newArray[newArray.length - 1].splice( 0, " and ")
+      let finalElement = "and " + newArray[newArray.length - 1]
       newArray[newArray.length - 1] = finalElement
       placeholder += newArray.join() + "."
       return placeholder
