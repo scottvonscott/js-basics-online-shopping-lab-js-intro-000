@@ -45,9 +45,10 @@ function cartDescription() {
 
 
 function total() {
+  var bigSum =[]
   let i = 0
   for (i = 0; i < cart.length; i++) {
-    return `${cart[i].itemPrice}`
+    bigSum.push(`${cart[i].itemPrice}`)
   }
 }
 
