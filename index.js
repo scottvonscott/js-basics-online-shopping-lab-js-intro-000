@@ -49,9 +49,9 @@ function total() {
   var firstSum = 0
   var lastSum = []
   for (i = 0; i < cart.length; i++) {
-    firstSum + `${cart[i].itemPrice}`
+    lastSum + `${cart[i].itemPrice}`
   }
-  return firstSum
+  return firstSum + lastSum
 }
 
 function removeFromCart(item) {
