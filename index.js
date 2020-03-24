@@ -33,7 +33,7 @@ function viewCart() {
       }
       finalElement = newArray[newArray - 1].splice( 0, " and ")
       newArray[newArray - 1] = finalElement
-      placeholder += finalElement + "."
+      placeholder += newArray.join() + "."
       return placeholder
   }
 }
