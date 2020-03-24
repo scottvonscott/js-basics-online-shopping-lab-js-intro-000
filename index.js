@@ -35,7 +35,7 @@ function viewCart() {
       return `In your cart, you have ${cart[0].itenName}.`
   } else if (cart.length === 2) {
       return `In your cart, you have ${cart[0]}.`
-  } else (cart.length <= 3) {
+  } else {
       return `In your cart, you have ${cart[0]}.`
   }
 }
