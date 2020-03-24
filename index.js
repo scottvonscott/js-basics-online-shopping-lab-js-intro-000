@@ -18,31 +18,31 @@ function addToCart(item) {
   return `${item} has been added to your cart.`
 }
 
-// function viewCart() {
-//   if (cart.length === 0) {
-//     return "Your shopping cart is empty"
-//   }
-//   let i = 0
-//   for (i = 0; i < cart.length; i+= 1) {
-//
-//   }
-// }
-
 function viewCart() {
-  switch(cart) {
-    case cart.length >= 1:
-      return `In your cart, you have ${cart[0]}.`
-      break;
-    case cart.length === 2:
-      return `In your cart, you have ${cart[0]},`
-      break;
-    case cart.length >= 3:
-      return `In your cart, you have ${cart[0]}, `
-      break;
-    default:
-      return "Your shopping cart is empty."
+  if (cart.length === 0) {
+    return "Your shopping cart is empty"
+  }
+  let i = 0
+  for (i = 0; i < cart.length; i+= 1) {
+
   }
 }
+
+// function viewCart() {
+//   switch(cart) {
+//     case cart.length >= 1:
+//       return `In your cart, you have ${cart[0]}.`
+//       break;
+//     case cart.length === 2:
+//       return `In your cart, you have ${cart[0]},`
+//       break;
+//     case cart.length >= 3:
+//       return `In your cart, you have ${cart[0]}, `
+//       break;
+//     default:
+//       return "Your shopping cart is empty."
+//   }
+// }
 
 function total() {
   // write your code here
