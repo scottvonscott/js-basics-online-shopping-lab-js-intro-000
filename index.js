@@ -32,7 +32,7 @@ function viewCart() {
         newArray.push(`${cart[i].itemName} at $${cart[i]}.itemPrice.`)
       }
       newArray.splice(-1, 0, "and")
-      console.log newArray
+      console.log(newArray)
   }
 }
 // return `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}, ${cart[1].itemName} at $${cart[1].itemPrice}, and ${cart[2].itemName} at $${cart[2].itemPrice}.`
