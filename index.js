@@ -24,7 +24,7 @@ function addToCart(item) {
 //   }
 //   let i = 0
 //   for (i = 0; i < cart.length; i+= 1) {
-// 
+//
 //   }
 // }
 
