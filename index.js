@@ -32,6 +32,7 @@ function viewCart() {
         newArray.push(` ${cart[i].itemName} at $${cart[i].itemPrice}`)
       }
       finalElement = newArray[newArray.length - 1].splice( 0, " and ")
+      newArray[newArray - 1] = finalElement
       placeholder += newArray.join() + "."
       return placeholder
   }
