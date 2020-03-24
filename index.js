@@ -46,8 +46,10 @@ function cartDescription() {
 
 function total() {
   let i = 0
+  var = sum
   for (i = 0; i < cart.length; i++) {
-    return `${cart[i].itemPrice}` +  `${cart[i].itemPrice}`
+    sum += parseInt(`${cart[i].itemPrice}`)
+    return sum
   }
 }
 
