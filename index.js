@@ -46,7 +46,8 @@ function cartDescription() {
 
 function total() {
   let i = 0
-  var sum = 0
+  var firstSum = 0
+  var lastSum = []
   for (i = 0; i < cart.length; i++) {
     return sum + cart[i].itemPrice
   }
