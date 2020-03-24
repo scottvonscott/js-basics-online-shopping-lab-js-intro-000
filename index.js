@@ -46,7 +46,7 @@ function cartDescription() {
 
 function total() {
   let i = 0
-  var = sum
+  let = sum
   for (i = 0; i < cart.length; i++) {
     sum += parseInt(`${cart[i].itemPrice}`)
     return sum
